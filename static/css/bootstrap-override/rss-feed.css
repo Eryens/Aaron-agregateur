@@ -1,0 +1,152 @@
+body {
+    background-color: #eaeaea ;
+    background-image: url("../../img/index_wallpaper.jpg") ;
+    background-attachment: fixed ;
+    background-position: center top ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+p {
+    text-align: justify ;
+}
+
+h2 {
+    background-color : #E2E2E2;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding-left: 10px ;
+    padding-top: 2px ;
+    padding-bottom:2px ;
+}
+
+#logo-container {
+    float: left ;
+    margin-top: 9px ;
+    margin-right: 10px ;
+}
+
+.navbar {
+    background-color: #0089c9;
+    border: 1px solid transparent;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #efefef !important;
+}
+
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+.dropdown-menu li a:hover {
+    color: black !important ;
+    background-color: #dadada !important;
+}
+
+.open .dropdown-toggle {
+    background-color: #3EA6D6!important;
+}
+
+#rss-panel {
+    margin-top: 70px ;
+}
+
+.news-container {
+    float: left;
+    width: 100% ;
+}
+
+.article-img {
+    float: left;
+    margin-right: 10px ;
+    margin-bottom: 5px ;
+    border-width: 1px ;
+    border-style: solid ;
+    border-color: #4F4F4F ;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: auto ;
+    height: 200px ;
+}
+
+.article-content {
+    float: left ;
+    margin: 5px ;
+}
+
+.article-date {
+    float: left ;
+    margin-left: 5px ;
+}
+
+.article-source-link {
+    float: right ;
+}
+
+#important-glyphicon {
+    font-size : 100px ;
+    float: left ;
+    margin: 20px ;
+}
+
+#apropos-glyphicon {
+    font-size: 30px ;
+}
+
+#apropos-glyphicon {
+    float: right ;
+}
+
+#next-news-button {
+    float : none ;
+}
+
+#news-button {
+    margin-top : 40px ;
+}
+
+#footer {
+    background-color: #d3d3d3 ;
+    color: #545454 ;
+    font-size: 12px ;
+    margin-bottom: 10px ;
+}
+
+#footer-text {
+    margin: 0px ;
+}
+
+.panel-footer {
+    padding: 5px ;
+}
+
+@media screen and (max-width: 768px) {
+    #logo-container {
+        margin-left: 5px ;
+    }
+
+    #myNavbar {
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+
+    .navbar li a, .navbar {
+        color: #000000 !important;
+    }
+
+    .navbar-nav li a:hover {
+        background-color: #d2d2d2 !important;
+        color: black !important ;
+    }
+}
